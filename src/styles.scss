@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Lato";
+  src: url("assets/fonts/Lato-Regular.ttf") format("truetype");
+}
+
 body {
-      background-color: var(--light-color); // Use variable directly without var()
+  background-color: var(--light-color);
+  font-family: var(--font-family);
+}
+
+ul,
+ul li {
+  list-style: none;
+  padding: 0;
 }
