@@ -11,7 +11,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, ContactComponent],
+  declarations: [AppComponent],
   imports: [BrowserModule, AppRoutingModule, SharedModule , BrowserAnimationsModule],
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],
